@@ -53,7 +53,9 @@ DELETE	/Category/api/v1/deleteByIdCategory/:id'	 Deletes a Category/from the dat
 
 The following is a list of the available API endpoints for the /roductRoutes
 
-Method	Endpoint	Description
+Method 
+  Endpoint
+  Description
 POST	/Product/api/v1/CreateProduct                a new product in the database.
 GET	/Product/api/v1/getallProduct	             Reads all products from the database.
 GET	/Product/api/v1/getByIdProduct/:id	    Reads a product from the database by its id.
