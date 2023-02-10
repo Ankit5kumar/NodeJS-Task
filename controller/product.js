@@ -1,6 +1,6 @@
 const ProductModel  = require('../model/Product.model')
 
-//function for creating Products in the DB
+//function for creating Products in the DB's
 
 exports.createProduct = async (req,res)=>{
       try {
