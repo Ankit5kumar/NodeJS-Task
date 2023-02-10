@@ -1,7 +1,7 @@
 const categoryModel = require('../model/category.model')
   
 
-// function for creating category
+// function for creating categories
 exports.createCategory = async (req, res) => {
     const category = {
         categoryId:req.body.categoryId,
