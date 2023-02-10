@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 app.use(CategoryRoute)
 app.use(ProductRoute)
-// Server
+// Server file
 app.listen(config.port,()=>{
     console.log('listening on port '+ config.port)
 })
