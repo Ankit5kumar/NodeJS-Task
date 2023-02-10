@@ -29,7 +29,7 @@ Create a .env file in the project root directory with the following contents:
 makefile
 Copy code
 DB_URL=mongodb://localhost/<database-name>
-PORT=3000
+PORT=4000
 Replace <database-name> with the name of your MongoDB database.
 
 Start the server
