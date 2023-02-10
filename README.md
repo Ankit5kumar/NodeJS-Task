@@ -19,7 +19,7 @@ MongoDB
 
 Use Git to clone the repository to your local machine.
 
-$ git clone https://github.com/<username>/<project-name>.git
+$ git clone https://github.com/Ankit5kumar/NodeJS-Task.git
 
 ## Install dependencies
 
