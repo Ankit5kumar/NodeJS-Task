@@ -38,14 +38,24 @@ To start the server, run the following command in the terminal:
 ruby
 Copy code
 $ npm start
-The server should now be running on http://localhost:3000.
+The server should now be running on http://localhost:4000.
 
 API Reference
-The following is a list of the available API endpoints:
+The following is a list of the available API endpoints for the CategoryRoutes
 
 Method	Endpoint	Description
-POST	/create	Creates a new product in the database.
-GET	/read/:id	Reads a product from the database by its id.
-GET	/readAll	Reads all products from the database.
-PUT	/update/:id	Updates a product in the database by its id.
-DELETE	/delete/:id	Deletes a product from the database by its id.
+POST	/Category/api/v1/CreateCategory/                 a new Category in the database.
+GET	/Category/api/v1/GetallCategory/	         Reads all Category from the database.
+GET	/Category/api/v1/getByIdCategory/:id	         Reads a Category from the database by its id.
+PUT	/Category/api/v1/updateByIdCategory/:id	         Updates a Category in the database by its id.
+DELETE	/Category/api/v1/deleteByIdCategory/:id'	 Deletes a Category/from the database by its id.
+
+
+The following is a list of the available API endpoints for the /roductRoutes
+
+Method	Endpoint	Description
+POST	/Product/api/v1/CreateProduct                a new product in the database.
+GET	/Product/api/v1/getallProduct	             Reads all products from the database.
+GET	/Product/api/v1/getByIdProduct/:id	    Reads a product from the database by its id.
+PUT	/Product/api/v1/updateProductById/:id	    Updates a product in the database by its id.
+DELETE	/Product/api/v1/DeleteProductById/:id	     Deletes a product from the database by its id.
